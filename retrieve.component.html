@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Book id</th>
+        <th scope="col">Book Name</th>
+        <th scope="col">Author</th>
+        <th scope="col">Date</th>
+        <th scope="col">Isbn code</th>
+        <!-- <th scope="col">Delete</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let b of books">
+        <td>{{b.bookid}}</td>
+        <td>{{b.title}}</td>
+        <td>{{b.author}}</td>
+        <td>{{b.date}}</td>
+        <td>{{b.isnb}}</td>
+          </tr>
+    </tbody>
+  </table>
